@@ -1,19 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+
 /*------------------------------------*\
     Universal Setting
 \*------------------------------------*/
 body {
-	background:#fff;
+	
 	margin: 0px;
+	height: 100vh;
 }
 
 
 /*------------------------------------*\
-    Universal Setting
+    Table Setting
 \*------------------------------------*/
-.content {
-	overflow: hidden;
-	margin: 0px auto;
-	text-align: center;
-	padding: 20px 0px;
-	
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(100% - 100px);
+	height: calc(100% - 100px);
+	padding: 50px;
+	flex-direction: column;
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+
+	h1 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+		color: #000000;
+	}
+
+	#players-table {
+		display: table;
+		width: 60%;
+	    
+	    border-collapse: collapse;
+	    margin-bottom: 20px;
+
+
+		.thead {
+			display: table-header-group;
+			background-color: #e6e6e6;
+			color: #6e6e6e;
+			text-align: left;
+			font-size: 16px;
+			border-top: 4px solid #011f63;
+			
+			.th:first-child {
+				text-align: center;
+			}
+
+		}
+
+		.tbody {
+			display: table-row-group;
+			
+			background: #ffffff;
+
+			.tr:nth-child(2n) {
+				background-image: url(../img/tr_bg.jpg);
+			}
+		}
+
+		.tr {
+			display: table-row;
+		}
+
+		.td, .th {
+			display: table-cell;
+			padding: 20px 12px;
+			border: 1px solid #dddddd;
+		}
+
+		.td {
+			
+			span {
+				display: inline-block;
+			    background-color: #666;
+			    line-height: 1.0;
+			    padding: 4px 6px;
+			    color: #fff;
+			}
+
+			&:first-child {
+				text-align: center;
+			}
+			
+
+			&.blue {
+				color: #0994cf;
+			}
+
+			img {
+				width: 20px;
+				vertical-align: sub;
+			}
+
+		}
+
+
+
+	}
+}
+
+
+/*------------------------------------*\
+    For Responsive
+\*------------------------------------*/
+@media only screen and (max-width: 960px) {
+	body {
+		height: auto;
+		
+		article{
+			background-size: cover;
+			#players-table {
+				width: 100%;
+				.thead {
+					display: none;
+				}
+
+				.tbody{
+
+					.tr, .td {
+						display: block;
+					}
+					.tr {
+						padding-bottom: 20px;
+					}
+
+					.mobile_th {
+						background-color: #1a1a1a;
+						color: #fff;
+					}
+				}
+			}
+		}
+
+		article #players-table .td {
+			text-align: center;
+		}
+
+		article #players-table .td span {
+			background-color: #1a1a1a;
+		}
+	}
 }

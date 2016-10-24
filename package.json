@@ -1,11 +1,11 @@
 {
-  "name": "landing_page",
+  "name": "AFL_Site",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Chia",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.14.0",
@@ -15,7 +15,8 @@
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^1.5.4"
+    "gulp-uglify": "^1.5.4",
+    "gulp-rename": "^1.2.2"
   },
   "description": ""
 }

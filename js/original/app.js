@@ -1,2 +1,10 @@
-console.log("Hi guys, this is my template JS");
-// alert('112');
+// 'use strict';
+
+// {
+//   // GET /someUrl
+//   this.$http.get('../../api/ratings.json').then(function (response) {
+//     // success callback
+//   }, function (response) {
+//     // error callback
+//   });
+// }

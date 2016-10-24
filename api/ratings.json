@@ -1,0 +1,94 @@
+{
+  "playerRatings": [
+    {
+      "position": "Midfielder",
+      "player": {
+        "playerName": {
+          "givenName": "Patrick",
+          "surname": "Dangerfield"
+        }
+      },
+      "team": {
+        "teamName": "Geelong Cats",
+        "img":"./img/cat.png"
+      },
+      "detailedRatings": 
+        {
+          "ranking": 1,
+          "ratingType": "OVERALL"
+        }
+    },
+    {
+      "position": "Midfielder/Forward",
+      "player": {
+        "playerName": {
+          "givenName": "Robbie",
+          "surname": "Gray"
+        }
+      },
+      "team": {
+        "teamName": "Port Adelaide",
+        "img":"./img/port.png"
+      },
+      "detailedRatings": 
+        {
+          "ranking": 2,
+          "ratingType": "OVERALL"
+        }
+    },
+    {
+      "position": "Midfielder",
+      "player": {
+        "playerName": {
+          "givenName": "Josh",
+          "surname": "P. Kennedy"
+        }
+      },
+      "team": {
+        "teamName": "Sydney Swans",
+        "img":"./img/sydney.png"
+      },
+      "detailedRatings": 
+        {
+          "ranking": 3,
+          "ratingType": "OVERALL"
+        }
+    },
+    {
+      "position": "Midfielder",
+      "player": {
+        "playerName": {
+          "givenName": "Scott",
+          "surname": "Pendlebury"
+        }
+      },
+      "team": {
+        "teamName": "Collingood",
+        "img": "./img/collingwood.png"
+      },
+      "detailedRatings": 
+        {
+          "ranking": 4,
+          "ratingType": "OVERALL"
+        }
+    },
+    {
+      "position": "Midfielder",
+      "player": {
+        "playerName": {
+          "givenName": "Marcus",
+          "surname": "Bontempelli"
+        }
+      },
+      "team": {
+        "teamName": "Western Bulldogs",
+        "img": "./img/dog.png"
+      },
+      "detailedRatings": 
+        {
+          "ranking": 5,
+          "ratingType": "OVERALL"
+        }
+    }
+  ]
+}
